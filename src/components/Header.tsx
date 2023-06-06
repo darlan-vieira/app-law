@@ -9,7 +9,7 @@ export default function Header() {
                 <a href="">CONTATO</a>
             </div>
                 
-            <button className="rounded-lg bg-terra-100 px-5 py-3 font-alt text-sm uppercase leading-none text-salmon-50 hover:bg-terra-500">Iniciar</button>
+            <button className="rounded-lg bg-yellow-900 px-5 py-3 font-alt text-sm uppercase leading-none text-salmon-light hover:bg-stone-900">Iniciar</button>
             </div>
     )
 }

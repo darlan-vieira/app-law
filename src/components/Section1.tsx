@@ -1,4 +1,6 @@
 import {FaUserTie} from 'react-icons/fa'
+import { RiCriminalFill } from 'react-icons/ri'
+import { HiUserGroup } from 'react-icons/hi'
 export function SectionOne() {
     return (
         <div className="flex flex-col items-center gap-4 mt-24">
@@ -17,12 +19,14 @@ export function SectionOne() {
                     <p className="text-md text-center mt-4">Existem várias formas de entidades legais <br/> de negócios que vão desde o <br/> comerciante vendido.</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <h3 className="text-2xl  font-700">Lei Criminal</h3>
+                    <RiCriminalFill size={40} />
+                    <h3 className="text-2xl  font-700 mt-4">Lei Criminal</h3>
                     <p className="text-md text-center mt-4">O direito penal é o corpo da lei que <br/> se relaciona com o crime. Conduta percebida <br/>  como prejudicial e ameaçadora.</p>
                 </div>
                     
                 <div className="flex flex-col items-center">
-                    <h3 className="text-2xl font-700">Lei familiar</h3>
+                    <HiUserGroup size={40} />
+                    <h3 className="text-2xl font-700 mt-4">Lei familiar</h3>
                     <p className="text-md text-center mt-4">O direito de família é uma área de atuação <br/> jurídica voltada para  as questões que <br/> envolvem as relações familiares.</p>
                 </div>       
             </div>

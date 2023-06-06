@@ -12,23 +12,23 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-    },
-    colors: {
-      salmon: {
-        50: '#F3EEE5',
-        500: '#EDDACE'
+      colors: {
+        'salmon-light': '#F3EEE5',
+        'salmon-dark': '#EDDACE',
+        'gpt-light': '#40414F',
+        'gpt-dark': '#343541',
       },
-
-      chumbo: {
-        100: '#6A6054',
-        500: '#251C1A'
+      keyframes: {
+        blink: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 }
+        }
       },
-
-      terra: {
-        100: '#452C02',
-        500: '#1B160C'
+      animation: {
+        blink: 'blink 1s infinite'
       }
-    }
+    },
+    
   },
   plugins: [],
 }

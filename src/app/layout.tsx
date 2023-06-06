@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={`${roboto.variable} ${playfairdisplay.variable} bg-salmon-50`}>{children}</body>
     </html>
   )

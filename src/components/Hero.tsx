@@ -1,6 +1,5 @@
 import Image from "next/image";
 import estatuaBronze from '../assets/deusa-justica01.png'
-import martelo from '../assets/martelo.png'
 import { BsArrowDown } from 'react-icons/bs'
 
 export function Hero() {

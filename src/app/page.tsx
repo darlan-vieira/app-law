@@ -1,9 +1,11 @@
+'use client'
 
+import { Footer } from '@/components/Footer'
 import Header from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { SectionOne } from '@/components/Section1'
-import { ArrowRight } from 'lucide-react'
-import Link from 'next/link'
+import { Section2 } from '@/components/Section2'
+import { Section3 } from '@/components/Section3'
 
 export default function Home() {
   return (
@@ -12,63 +14,19 @@ export default function Home() {
       
       {/* hero */}
       <Hero />
+
       {/* section1 */}
       <SectionOne />
+
       {/* section2 */}
-      <div>
-        <h1>Conheça nossos advogados mais talentosos e qualificados</h1>
-        <div>
-          <h3>Advogados verificados pelo conselho principal</h3>
-          <p>Ao procurar um advogado, você quer um profissional que tenha experiência em lidar com casos como o seu e mantenha a mais alta ética e atendimento ao cliente.</p>
-          <Link
-              href=""
-              className="flex items-center gap-2 text-sm text-gray-200 hover:text-gray-100"
-            >
-              Ler mais
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-            {/* imagem */}
-        </div>
-      </div>
+      <Section2 />
+
       {/* section3 */}
-      <div>
-        <div>
-        <h2>Quais benefícios você obterá de nós?</h2>
-          <p>Nós fornecemos serviços jurídicos de alta qualidade para você com as melhores pessoas integradas.</p>
-          <button>Encontrar advogado</button>
-        </div>
-        {/* imagem */}
-        <div>
-          <span>Representação legal</span>
-          <p>Isso pode incluir defesa criminal, litígio civil e várias negociações legais</p>
-
-          <span>Alegações</span>
-          <p>Você tem o direito de saber todos os detalhes das alegações.</p>
-
-          <span>Suporte</span>
-          <p>Nossa equipe está disponível 24 horas por dia, 7 dias por semana, para fornecer ajuda e suporte</p>
-        </div>
-      </div>
+      <Section3 />
 
       {/* Rodapé */}
-      <footer>
-        <div>
-          <span>Quer um advogado?</span>
-            <div>
-              <button></button>
-              <span>vamos conversar</span>
-            </div>
-          <a href="">advogados@gmail.com</a>
-        </div>
-        <div>
-          {/* redes sociais */}
-        </div>
-        <div>
-          {/* copyright */}
-        </div>
-      </footer>
+      <Footer />
       
-    </main>
-     
+    </main>   
   )
 }
